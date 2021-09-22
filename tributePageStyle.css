@@ -1,0 +1,22 @@
+/** PAGE DECORATION **/
+
+body {
+    background-color: white;
+}
+
+* {
+    color: black;
+    text-align: center;
+}
+
+a {
+    background-color: rgb(91, 173, 173);
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: seagreen;
+}
