@@ -1,22 +1,51 @@
-/** PAGE DECORATION **/
-
-body {
-    background-color: white;
+html, body, header, main, footer, article, div, span, p, a, figure, img, small{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    outline: none;
 }
 
+/** PAGE DECORATION **/
+
 * {
-    color: black;
     text-align: center;
 }
 
-a {
-    background-color: rgb(91, 173, 173);
-    padding: 10px;
-    border-radius: 25px;
-    border: 1px solid black;
-    text-decoration: none;
+p {
+    margin: 40px;
 }
 
-a:hover{
-    background-color: seagreen;
+#title{
+    font-style: italic;
+    border-radius: 5px;
+    position: absolute;
+    margin: 20px 77px;
+    padding: 197px;
+    background-color: rgba(233, 235, 80, 0.719);
+}
+
+img {
+    max-width: 500px;
+    height: auto;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+/** Link Format **/
+a {
+    background-color: rgb(232, 235, 80);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-color: rgba(195, 197, 71, 0.712);
+}
+
+a:visited {
+    color: rgb(92, 90, 13);
 }
