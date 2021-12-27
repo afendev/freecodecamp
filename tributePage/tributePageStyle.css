@@ -1,51 +1,30 @@
-html, body, header, main, footer, article, div, span, p, a, figure, img, small{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: sans-serif;
-    outline: none;
+/***** MAIN PAGE LAYOUT *****/
+
+body{
+background-color: palevioletred;
+display: grid;
+grid-template-columns: auto;
 }
 
-/** PAGE DECORATION **/
 
-* {
-    text-align: center;
+header {
+    background-color: purple;
+    display: grid;
+    grid-template-rows: auto 100px;
 }
 
-p {
-    margin: 40px;
+main{
+    background-color: seagreen;
+    display: grid;
+    grid-template-rows: auto 300px;
 }
 
-#title{
-    font-style: italic;
-    border-radius: 5px;
-    position: absolute;
-    margin: 20px 77px;
-    padding: 197px;
-    background-color: rgba(233, 235, 80, 0.719);
+footer {
+    background-color: royalblue;
+    display: grid;
+    grid-template-rows: auto 50px;
 }
 
-img {
-    max-width: 500px;
-    height: auto;
-    border-radius: 5px;
-    margin: 20px;
-}
-
-/** Link Format **/
-a {
-    background-color: rgb(232, 235, 80);
-    padding: 10px;
-    border-radius: 5px;
-    text-decoration: none;
-    color: black;
-}
-
-a:hover {
-    background-color: rgba(195, 197, 71, 0.712);
-}
-
-a:visited {
-    color: rgb(92, 90, 13);
+body, header, main, footer {
+    justify-self: center;
 }
