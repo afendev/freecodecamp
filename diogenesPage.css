@@ -1,0 +1,80 @@
+/* DIOGENES REBOUÇAS PAGE */
+body {
+    background-color: black;
+}
+
+h4 {
+    color: black;
+}
+
+p {
+    color: white;
+}
+
+#main {
+    text-align: center;
+}
+
+#title {
+    color: white;
+}
+
+#img-div {
+    background-color: white;
+    padding: 10px;
+    margin: 0;
+}
+/**********
+
+#tribute-link
+
+
+***********/
+
+#tribute-info {
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+#image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-caption {
+    background-color: white;
+    margin-top: 10px;
+}
+
+a {
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-top: 10px;
+}
+
+
+footer {
+    text-align: center;
+}
+
+.afendevFooter {
+    color: white;
+}
+
+.afendevLink {
+    color: white;
+    text-decoration: none;
+}
+
+.afendevLink:hover {
+    background-color: greenyellow;
+    color: black;
+}
