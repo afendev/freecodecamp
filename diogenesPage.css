@@ -1,6 +1,10 @@
 /********************** PAGE SETUP *****/
 body {
     background-color: black;
+    display: grid;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 #main {
@@ -32,6 +36,10 @@ h2 {
     padding-top: 10px;
 }
 
+p {
+    line-height: 1.5;
+}
+
 /********************* IMAGE SETUP *****/
 
 #img-div {
@@ -39,12 +47,6 @@ h2 {
     padding: 10px;
     margin: 0;
 }
-/**********
-
-#tribute-link
-
-
-***********/
 
 #image {
     display: block;
@@ -62,12 +64,12 @@ h2 {
 a {
     color: black;
     text-decoration: none;
-    padding: 10px;
-    margin: 0px;
+    padding: 5px;
 }
 
 a:hover {
-    background-color: yellowgreen;
+    background-color: black;
+    color: white;
 }
 
 /******************** LIST SETUP *****/
@@ -78,7 +80,7 @@ ul {
 }
 
 li {
-    margin: 5px;
+    margin-top: 10px;
     padding: 5px;
 }
 
@@ -99,6 +101,6 @@ footer {
 }
 
 .afendevLink:hover {
-    background-color: greenyellow;
+    background-color: white;
     color: black;
 }
