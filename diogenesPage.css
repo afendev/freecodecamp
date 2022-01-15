@@ -1,0 +1,178 @@
+/********************** PAGE SETUP *****/
+html {
+    font-size: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+body {
+    background-color: black;
+    display: grid;
+    justify-content: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+#main {
+    text-align: center;
+}
+
+#tribute-info {
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+/********************** MEDIA SETUP MOBILE *****/
+
+@media (max-width: 460px) {
+   body{
+    background-color: blue;
+   }
+   /************************* TEXT LAYOUT *****/
+   h1 {
+       font-size: 4rem;
+   }
+
+   p {
+    font-size: 1.5rem;
+}
+
+   figcaption {
+    font-size: 1.3rem;
+ }
+
+   h2 {
+       font-size: 2rem;
+   }
+
+   h3 {
+       font-size: 1.5rem;
+   }
+
+   a {
+       font-size: 1.5rem;
+   }
+
+   .felipeLink {
+       font-size: 1.3rem;
+   }
+   /***************** IMAGE LAYOUT *****/
+
+   img {
+        max-width: 100%;
+        display: block;
+        height: auto;
+        margin: 0 auto;
+   }
+
+    #tribute-info {
+        background-color: white;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+ 
+}
+
+/********************* TEXT SETUP ******/
+
+#title {
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.pSubtitle {
+    font-family: 'Comfortaa', cursive;
+    color: white;
+}
+
+figcaption, section {
+    font-family: Arial;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    padding-top: 10px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+/********************* IMAGE SETUP *****/
+
+img {
+    max-width: 70%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-div {
+    background-color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+#image {
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-caption {
+    background-color: white;
+    margin-top: 10px;
+}
+
+/********************* LINK SETUP *****/
+a {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+/******************** LIST SETUP *****/
+
+ul {
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+li {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+/****************** FOOTER SETUP *****/
+
+footer {
+    text-align: center;
+}
+
+.afendevFooter {
+    color: white;
+    font-family: 'Comfortaa', cursive;
+}
+
+.afendevLink {
+    color: white;
+    text-decoration: none;
+}
+
+.afendevLink:hover {
+    background-color: white;
+    color: black;
+}
