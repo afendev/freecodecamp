@@ -1,0 +1,25 @@
+body {
+    display: grid;
+    grid-template-columns: 300px 200px;
+    grid-gap: 20px;
+    grid-area: ;
+}
+
+section {
+    background-color: gainsboro;
+}
+
+#video{
+    width: auto;
+    height: auto;
+}
+
+
+#footerTitle {
+    background-color: gainsboro;
+}
+
+#aboutMe {
+    font-size: 30px;
+    background-color: gainsboro;
+}
